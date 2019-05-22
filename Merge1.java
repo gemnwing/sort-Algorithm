@@ -20,7 +20,7 @@ public class Merge1 {
 	}
 	private void merge(Comparable[] a, int lo, int mid, int hi) {
 		int i = lo, j = mid + 1;
-		for (int k = 0; k < hi; k++) {
+		for (int k = 0; k <= hi; k++) {
 			aux[k] = a[k];
 		}
 		for (int k = lo; k <= hi; k++) {
